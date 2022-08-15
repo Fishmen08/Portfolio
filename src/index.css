@@ -11,9 +11,7 @@ body {
 }
 
 html {
-  scroll-margin-top: 8vh;
-  overflow-x: hidden;
-  
+  overflow-x: hidden; 
 }
 
 code {
@@ -133,6 +131,10 @@ code {
 
 #projects, #skills {
   scroll-margin-top: 10vh;
+}
+
+#home {
+  scroll-margin-top: 5vh;
 }
 
 .projects-container {
