@@ -1,7 +1,7 @@
 import React from "react";
 import random from './resources/random.png';
 import calculator from './resources/calculator.png';
-import appointment from './resources/appointment-Planner.png';
+import appointment from './resources/appointment-planner.png';
 import movieland from './resources/movieland.png';
 import pomodoro from './resources/pomodoro.png';
 
