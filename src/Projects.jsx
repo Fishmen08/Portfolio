@@ -10,39 +10,39 @@ export default function Projects() {
         <div className='projects center' id='projects'>
             <h2>These are some of my projects</h2>
             <div className='projects-container'>
-                <a className='project-link' href='/#'  id='projectOne'>
+                <a className='project-link' href='https://random-quotes-adam.netlify.app/' target='_blank' rel='noreferrer' id='projectOne'>
                 <div className='project-holder'>
-                    <img src={random} alt='pic of dog'></img>
+                    <img src={random} alt='project'></img>
                     <p>Random Quote Generator</p>
                 </div>
                 </a>
                 <a className='project-link' href='/#'  id='projectTwo'>
                 <div className='project-holder'>
-                    <img src={calculator} alt='pic of dog'></img>
+                    <img src={calculator} alt='project'></img>
                     <p>Basic Calculator</p>
                 </div>
                 </a>
                 <a className='project-link' href='/#'  id='projectThree'>
                 <div className='project-holder'>
-                    <img src={appointment} alt='pic of dog'></img>
+                    <img src={appointment} alt='project'></img>
                     <p>Appointment Planner</p>
                 </div>
                 </a>
-                <a className='project-link' href='/#'  id='projectThree'>
+                <a className='project-link' href='https://movieland-adam.netlify.app' target='_blank' rel='noreferrer' id='projectThree'>
                 <div className='project-holder'>
-                    <img src={movieland} alt='pic of dog'></img>
+                    <img src={movieland} alt='project'></img>
                     <p>Movieland</p>
                 </div>
                 </a>
-                <a className='project-link' href='/#'  id='projectOne'>
+                <a className='project-link' href='https://pomodoro-timer-adam.netlify.app' target='_blank' rel='noreferrer' id='projectOne'>
                 <div className='project-holder'>
-                    <img src={pomodoro} alt='pic of dog'></img>
+                    <img src={pomodoro} alt='project'></img>
                     <p>Pomodoro Break Timer</p>
                 </div>
                 </a>
                 <a className='project-link' href='/#'  id='projectTwo'>
                 <div className='project-holder'>
-                    <img src={calculator} alt='pic of dog'></img>
+                    <img src={calculator} alt='project'></img>
                     <p>Basic Calculator</p>
                 </div>
                 </a>
