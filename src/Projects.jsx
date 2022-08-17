@@ -1,7 +1,7 @@
 import React from "react";
 import random from './resources/random.png';
 import calculator from './resources/calculator.png';
-import appointment from './resources/appointment.png';
+import appointment from './resources/appointment-Planner.png';
 import movieland from './resources/movieland.png';
 import pomodoro from './resources/pomodoro.png';
 
@@ -16,13 +16,13 @@ export default function Projects() {
                     <p>Random Quote Generator</p>
                 </div>
                 </a>
-                <a className='project-link' href='/#'  id='projectTwo'>
+                <a className='project-link' href='https://github.com/Fishmen08/calculator' target='_blank' rel='noreferrer' id='projectTwo'>
                 <div className='project-holder'>
                     <img src={calculator} alt='project'></img>
                     <p>Basic Calculator</p>
                 </div>
                 </a>
-                <a className='project-link' href='/#'  id='projectThree'>
+                <a className='project-link' href='https://appointment-planner-adam.netlify.app' target='_blank' rel='noreferrer' id='projectThree'>
                 <div className='project-holder'>
                     <img src={appointment} alt='project'></img>
                     <p>Appointment Planner</p>
@@ -38,12 +38,6 @@ export default function Projects() {
                 <div className='project-holder'>
                     <img src={pomodoro} alt='project'></img>
                     <p>Pomodoro Break Timer</p>
-                </div>
-                </a>
-                <a className='project-link' href='/#'  id='projectTwo'>
-                <div className='project-holder'>
-                    <img src={calculator} alt='project'></img>
-                    <p>Basic Calculator</p>
                 </div>
                 </a>
                 
