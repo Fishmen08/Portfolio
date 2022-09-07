@@ -8,11 +8,11 @@ export default function Contact() {
             <h2>Lets work together...</h2>
             <p>My skills</p>
             <div className='logo'>
-                <FontAwesomeIcon className='icon' icon={faGithub} />
-                <FontAwesomeIcon className='icon' icon={faHtml5} id='html' />
-                <FontAwesomeIcon className='icon' icon={faCss3} id='css' />
-                <FontAwesomeIcon className='icon' icon={faJsSquare} id='js' />
-                <FontAwesomeIcon className='icon' icon={faReact} id='react' />
+                <FontAwesomeIcon className='icon' title='Github' icon={faGithub} />
+                <FontAwesomeIcon className='icon' title='HTML' icon={faHtml5} id='html' />
+                <FontAwesomeIcon className='icon' title='CSS' icon={faCss3} id='css' />
+                <FontAwesomeIcon className='icon' title='Javascript' icon={faJsSquare} id='js' />
+                <FontAwesomeIcon className='icon' title='React' icon={faReact} id='react' />
             </div>
             <div className='contact-links'>
             <h3>Email: adamdfisher08@gmail.com</h3>

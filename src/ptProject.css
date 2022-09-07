@@ -1,0 +1,9 @@
+.pt-project {
+    text-align: center;
+    width: 100vw;
+}
+
+#image:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
