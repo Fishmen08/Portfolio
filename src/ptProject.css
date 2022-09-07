@@ -1,7 +1,25 @@
+/* * {
+    background-color: #1d2731;
+    box-sizing: border-box;
+} */
+
 .pt-project {
     text-align: center;
     width: 100vw;
+    min-height: 100vw;
     margin: 0 auto;
+    background-color: #1d2731;
+    color: #d9b310;
+    position: absolute;
+}
+
+.head-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.head-section a {
+    color: white;
 }
 
 #image:hover {
@@ -10,7 +28,15 @@
 }
 
 .project-description {
-    width: 90%;
+    width: 75%;
+    min-width: 400px;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid #d9b310;
+    margin-top: 12px;
+    padding: 8px;
+}
+
+
+#link-home {
+    color: white;
 }
