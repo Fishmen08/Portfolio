@@ -12,7 +12,7 @@ export default function Projects() {
         <div className='projects center' id='projects'>
             <h2>These are some of my projects</h2>
             <div className='projects-container'>
-            <Link className='project-link' to='/pt-project' target='_blank' rel='noreferrer' id='projectOne'>
+            <Link className='project-link' to='/pt-project' id='projectOne'>
                 <div className='project-holder'>
                     <img src={fbfMain} alt='project'></img>
                     <p>Business Website</p>

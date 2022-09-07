@@ -14,7 +14,7 @@ export default function PtProjectPage() {
             <div>
                 <a  href='https://fitnessbyfish.netlify.app/' target='_blank' rel='noreferrer'><img id='image' src={fitbyfish} title='Website main page' alt='website main page' height='400px' /></a>
             </div>
-            <div>
+            <div className='project-description'>
                 <h2>Project Description</h2>
                 <p>I created this website as a mock project for my own Personal Training business.</p>
                 <p>I used React and React Router to make it a single page application.</p>
